@@ -1,0 +1,52 @@
+{
+  "sensors": [
+    {
+      "id": 1,
+      "code": "sensor-1",
+      "name": "Valve 1",
+      "description": "Basic sensor in valve 1.",
+      "groupName": "Level 1",
+      "location": {
+        "x": 31.92,
+        "y": 11.49,
+        "z": -12.97
+      },
+      "objectId": 31
+    },
+    {
+      "id": 2,
+      "code": "sensor-2",
+      "name": "Valve 2",
+      "description": "Basic sensor in valve 2.",
+      "groupName": "Level 1",
+      "location": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "objectId": 114
+    }
+  ],
+  "channels": [
+    {
+      "id": 1,
+      "code": "temp",
+      "name": "Temperature",
+      "description": "Element temperature in degrees Celsius.",
+      "type": "double",
+      "unit": "°C",
+      "min": 2.0,
+      "max": 28.0
+    },
+    {
+      "id": 2,
+      "code": "ph",
+      "name": "pH",
+      "description": "Level of PH.",
+      "type": "double",
+      "unit": "",
+      "min": 0,
+      "max": 14
+    }
+  ]
+}
